@@ -9,7 +9,7 @@ Created on Wed Dec  1 11:13:00 2021
 total_upward = 0;
 previous = None
 
-for current in open("./01_input.txt").readlines():
+for current in open("./input.txt").readlines():
   current = int(current)
 
   if previous:

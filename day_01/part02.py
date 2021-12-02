@@ -13,7 +13,7 @@ ante_previous = None
 current_sum = None
 previous_sum = None
 
-for current in open("./01_input.txt").readlines():
+for current in open("./input.txt").readlines():
   current = int(current)
   if previous and ante_previous:
     current_sum = previous + ante_previous + current
